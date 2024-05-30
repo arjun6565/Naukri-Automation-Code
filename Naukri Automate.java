@@ -25,9 +25,9 @@ public class NaukriAutomate {
 
         // Enter email address and password
         WebElement email = driver.findElement(By.id("usernameField"));
-        email.sendKeys("arjunjabong@gmail.com");
+        email.sendKeys("abc@gmail.com");
         WebElement password = driver.findElement(By.id("passwordField"));
-        password.sendKeys("Infotech@6565");
+        password.sendKeys("Password");
 
         // Click the login button
         WebElement loginButton = driver.findElement(By.cssSelector(".blue-btn"));
